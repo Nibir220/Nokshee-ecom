@@ -51,3 +51,15 @@ function showMessage(message) {
 
 
 
+function loadComponent(selector, file) {
+  fetch(file)
+    .then(response => response.text())
+    .then(data => {
+      document.querySelector(selector).innerHTML = data;
+    })
+    .catch(error => console.error('Error loading component:', error));
+}
+
+// Load header and footer
+loadComponent('header', 'components/header.html');
+loadComponent('footer', 'components/footer.html');

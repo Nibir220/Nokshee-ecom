@@ -17,11 +17,11 @@ body {
 }
 
 .abc{
-  background-color: #3d8fe0;
+  background-color: #e09d8c;
 }
 
 header {
-  background-color: #1e3a8a; /* dark blue */
+  background-color: #3e6dec; /* dark blue */
   color: white;
   padding: 20px 0;
 }
@@ -45,11 +45,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #007bff;
+  color: #030d18;
 }
 
 .hero {
-  background: #393d41;
+  background: #b7c8d8;
   text-align: center;
   padding: 60px 20px;
 }
@@ -57,6 +57,10 @@ nav a:hover {
 .hero h2 {
   font-size: 36px;
   margin-bottom: 10px;
+}
+
+.hero p{
+  color: white;
 }
 
 .products {
@@ -152,9 +156,15 @@ footer {
 }
 .subscribe-section h3 {
   margin-bottom: 0.5rem;
+  color: white;
+  
 }
 .subscribe-form {
   margin-top: 1rem;
+}
+
+.subscribe-section p {
+  color: white;
 }
 .subscribe-form input[type="email"] {
   padding: 0.5rem;
